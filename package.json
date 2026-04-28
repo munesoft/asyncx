@@ -1,6 +1,6 @@
 {
   "name": "@munesoft/asyncx",
-  "version": "1.101.11",
+  "version": "1.204.12",
   "description": "Unified async control for JavaScript: retries, timeouts, caching, concurrency, cancellation, and circuit breakers — one function.",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
@@ -27,6 +27,14 @@
   "author": "munesoft",
   "license": "MIT",
   "sideEffects": false,
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/munesoft/asyncx.git"
+  },
+  "homepage": "https://github.com/munesoft/asyncx#readme",
+  "bugs": {
+    "url": "https://github.com/munesoft/asyncx/issues"
+  },
   "devDependencies": {
     "@types/node": "^22.0.0",
     "tsup": "^8.0.0",
